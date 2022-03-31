@@ -1,0 +1,6 @@
+﻿  Source.cpp
+C:\Users\vladm\source\repos\wunu_proj\phys_lab1\Source.cpp(7,70): warning C4305: инициализация: усечение из "double" в "float"
+C:\Users\vladm\source\repos\wunu_proj\phys_lab1\Source.cpp(48,39): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+C:\Users\vladm\source\repos\wunu_proj\phys_lab1\Source.cpp(81,39): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+C:\Users\vladm\source\repos\wunu_proj\phys_lab1\Source.cpp(114,33): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+  phys_lab1.vcxproj -> C:\Users\vladm\source\repos\wunu_proj\phys_lab1\x64\Debug\phys_lab1.exe
