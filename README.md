@@ -10,3 +10,5 @@
 У вас при запуску може бути помилка з відсутністю mvcp140d.dll, це звязано з тим, що у вас немає пакету Microsoft Visual C++ 2015. Ви можете скачати їх тут
 - [Скачать Microsoft Visual C++ 2015](https://download.microsoft.com/download/6/A/A/6AA4EDFF-645B-48C5-81CC-ED5963AEAD48/vc_redist.x86.exe) для 32 бит
 - [Скачать Microsoft Visual C++ 2015](https://download.microsoft.com/download/6/A/A/6AA4EDFF-645B-48C5-81CC-ED5963AEAD48/vc_redist.x64.exe) для 64 бит
+### Дисклеймер
+Всі ці проекти зроблені лише для ознайомлення з формулами і тим як працюють програми для рішення задач з фізики. За точність/правильність їх роботи я не ручаюсь.
