@@ -70,6 +70,7 @@ void fill()
 	b2.n = 0.5;
 }
 
+// функція для переведення всіх змінних під варіант користувача
 // якщо spisk != 0 то всі змінні b1 b2 = b1 b2 * (spisk/100) + b1 b2
 void normalize(double spisk)
 {
@@ -112,43 +113,43 @@ void normalize(double spisk)
 	}
 }
 
-// зробити щоб всі змінні b1 b2 мали 5 цифри після коми
+// зробити щоб всі змінні b1 b2 мали 4 цифри після коми
 void round()
 {
-	b1.h[0] = round(b1.h[0] * 100000) / 100000;
-	b1.h[1] = round(b1.h[1] * 100000) / 100000;
-	b1.h[2] = round(b1.h[2] * 100000) / 100000;
-	b1.hser = round(b1.hser * 100000) / 100000;
-	b1.L = round(b1.L * 100000) / 100000;
-	b1.aser = round(b1.aser * 100000) / 100000;
-	b1.k = round(b1.k * 100000) / 100000;
-	b1.a = round(b1.a * 100000) / 100000;
-	b1.t[0] = round(b1.t[0] * 100000) / 100000;
-	b1.t[1] = round(b1.t[1] * 100000) / 100000;
-	b1.t[2] = round(b1.t[2] * 100000) / 100000;
-	b1.tser = round(b1.tser * 100000) / 100000;
-	b1.A1ser = round(b1.A1ser * 100000) / 100000;
-	b1.A1 = round(b1.A1 * 100000) / 100000;
-	b1.deltaA1 = round(b1.deltaA1 * 100000) / 100000;
-	b1.E = round(b1.E * 100000) / 100000;
-	b1.n = round(b1.n * 100000) / 100000;
-	b2.h[0] = round(b2.h[0] * 100000) / 100000;
-	b2.h[1] = round(b2.h[1] * 100000) / 100000;
-	b2.h[2] = round(b2.h[2] * 100000) / 100000;
-	b2.hser = round(b2.hser * 100000) / 100000;
-	b2.L = round(b2.L * 100000) / 100000;
-	b2.aser = round(b2.aser * 100000) / 100000;
-	b2.k = round(b2.k * 100000) / 100000;
-	b2.a = round(b2.a * 100000) / 100000;
-	b2.t[0] = round(b2.t[0] * 100000) / 100000;
-	b2.t[1] = round(b2.t[1] * 100000) / 100000;
-	b2.t[2] = round(b2.t[2] * 100000) / 100000;
-	b2.tser = round(b2.tser * 100000) / 100000;
-	b2.A1ser = round(b2.A1ser * 100000) / 100000;
-	b2.A1 = round(b2.A1 * 100000) / 100000;
-	b2.deltaA1 = round(b2.deltaA1 * 100000) / 100000;
-	b2.E = round(b2.E * 100000) / 100000;
-	b2.n = round(b2.n * 100000) / 100000;
+	b1.h[0] = round(b1.h[0] * 10000) / 10000;
+	b1.h[1] = round(b1.h[1] * 10000) / 10000;
+	b1.h[2] = round(b1.h[2] * 10000) / 10000;
+	b1.hser = round(b1.hser * 10000) / 10000;
+	b1.L = round(b1.L * 10000) / 10000;
+	b1.aser = round(b1.aser * 10000) / 10000;
+	b1.k = round(b1.k * 10000) / 10000;
+	b1.a = round(b1.a * 10000) / 10000;
+	b1.t[0] = round(b1.t[0] * 10000) / 10000;
+	b1.t[1] = round(b1.t[1] * 10000) / 10000;
+	b1.t[2] = round(b1.t[2] * 10000) / 10000;
+	b1.tser = round(b1.tser * 10000) / 10000;
+	b1.A1ser = round(b1.A1ser * 10000) / 10000;
+	b1.A1 = round(b1.A1 * 10000) / 10000;
+	b1.deltaA1 = round(b1.deltaA1 * 10000) / 10000;
+	b1.E = round(b1.E * 10000) / 10000;
+	b1.n = round(b1.n * 10000) / 10000;
+	b2.h[0] = round(b2.h[0] * 10000) / 10000;
+	b2.h[1] = round(b2.h[1] * 10000) / 10000;
+	b2.h[2] = round(b2.h[2] * 10000) / 10000;
+	b2.hser = round(b2.hser * 10000) / 10000;
+	b2.L = round(b2.L * 10000) / 10000;
+	b2.aser = round(b2.aser * 10000) / 10000;
+	b2.k = round(b2.k * 10000) / 10000;
+	b2.a = round(b2.a * 10000) / 10000;
+	b2.t[0] = round(b2.t[0] * 10000) / 10000;
+	b2.t[1] = round(b2.t[1] * 10000) / 10000;
+	b2.t[2] = round(b2.t[2] * 10000) / 10000;
+	b2.tser = round(b2.tser * 10000) / 10000;
+	b2.A1ser = round(b2.A1ser * 10000) / 10000;
+	b2.A1 = round(b2.A1 * 10000) / 10000;
+	b2.deltaA1 = round(b2.deltaA1 * 10000) / 10000;
+	b2.E = round(b2.E * 10000) / 10000;
+	b2.n = round(b2.n * 10000) / 10000;
 }
 
 

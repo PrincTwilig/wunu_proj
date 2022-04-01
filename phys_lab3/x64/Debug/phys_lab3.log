@@ -1,0 +1,3 @@
+﻿  Source.cpp
+C:\Users\vladm\source\repos\wunu_proj\phys_lab3\Source.cpp(99,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  phys_lab3.vcxproj -> C:\Users\vladm\source\repos\wunu_proj\phys_lab3\x64\Debug\phys_lab3.exe
