@@ -243,7 +243,7 @@ void round_b3()
 void print_b1()
 {
 	system("cls");
-	cout << "Table 1" << endl;
+	cout << "Table 1" << "  h1: " << b1.h1 << "   h2: " << b1.h2 << endl;
 	// назви змінних таблиці
 	cout << "No\tn1\tt1\tT1\tdT1\t|n2\tt2\tT2\tdT2\tg\t\tdg\tE" << endl;
 	// вивести все в b1
@@ -260,7 +260,7 @@ void print_b1()
 void print_b2()
 {
 	system("cls");
-	cout << "Table 2" << endl;
+	cout << "Table 2" << "  h1: " << b2.h1 << "   h2: " << b2.h2 << endl;
 	// назви змінних таблиці
 	cout << "No\tn1\tt1\tT1\tdT1\t|n2\tt2\tT2\tdT2\tg\t\tdg\tE" << endl;
 	// вивести все в b2
@@ -277,7 +277,7 @@ void print_b2()
 void print_b3()
 {
 	system("cls");
-	cout << "Table 3" << endl;
+	cout << "Table 3" << "  h1: " << b3.h1 << "   h2: " << b3.h2 << endl;
 	// назви змінних таблиці
 	cout << "No\tn1\tt1\tT1\tdT1\t|n2\tt2\tT2\tdT2\tg\t\tdg\tE" << endl;
 	// вивести все в b3
