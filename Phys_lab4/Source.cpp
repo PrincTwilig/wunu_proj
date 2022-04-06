@@ -159,7 +159,7 @@ int main()
 	double spisk;
 	SetConsoleCP(1251);
 	SetConsoleOutputCP(1251);
-	cout << "Ver 0.1" << endl;
+	cout << "Ver 0.2" << endl;
 	cout << "Прога для фізики, просто введіть свій номер в списку (якщо ви перший, то введіть 0) і все готово :)\nВведіть свій номер: ";
 	cin >> spisk;
 	normalize(spisk);
