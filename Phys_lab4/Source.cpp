@@ -1,6 +1,21 @@
 ﻿#include "Header.h"
 #include <cmath>
 
+
+// заокруглити до цілих чисел всі n з b1 b2 b3
+void round_n()
+{
+	for (int i = 0; i < 3; i++)
+	{
+		b1.n1[i] = round(b1.n1[i]);
+		b1.n2[i] = round(b1.n2[i]);
+		b2.n1[i] = round(b2.n1[i]);
+		b2.n2[i] = round(b2.n2[i]);
+		b3.n1[i] = round(b3.n1[i]);
+		b3.n2[i] = round(b3.n2[i]);
+	}
+}
+
 // Знаходимо всі T1 в таблицях T1 = t1 / n1
 void findT1()
 {
@@ -103,6 +118,7 @@ void find_dg()
 int menu() {
 	int choice;
 	// -------
+	round_n();
 	findT1();
 	findTser();
 	findser_n_t();
