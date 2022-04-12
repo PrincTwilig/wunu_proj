@@ -5,6 +5,7 @@
 - [Фізика лабораторна 1](https://github.com/PrincTwilig/wunu_proj/releases/tag/Phys_lab1)
 - [Фізика лабораторна 2](https://github.com/PrincTwilig/wunu_proj/releases/tag/Phys_lab2)
 - [Фізика лабораторна 4](https://github.com/PrincTwilig/wunu_proj/releases/tag/Phys_lab4)
+- [Фізика лабораторна 5](https://github.com/PrincTwilig/wunu_proj/releases/tag/Phys_lab5)
 ### Як скачати?
 Справа є вкладка Releases там всі останні випуски програм, також на вкладці Releases зліва зверху є Tags, коли ви натискаєте на нього, буде легше найти конкретний проект. Також можна перейти по посиланню в абзаці "[Що вже є?](#thinks)"
 ### Можливі помилки
