@@ -53,15 +53,17 @@ class Solution:
         X = np.array([self.fF[0], self.fF[1]+0.000001, self.fF[2]+0.000002, self.fF[3]+0.000003, self.fF[4]+0.000004])
         Y = np.array([self.v[0], self.v[1], self.v[2], self.v[3], self.v[4]])
         # інтерполяція для плавності ліній
-        f = interpolate.interp1d(X, Y, kind=2)
-        x1 = np.linspace(X.min(), X.max(), smooth)
+        f = interpolate.interp1d(Y, X, kind=2)
+        x1 = np.linspace(Y.max(), Y.min(), smooth)
 
-        plt.xlabel("√F")
-        plt.ylabel("v")
         if smoth:
-            plt.plot(X, Y, "o", x1, f(x1), "-")
+            plt.xlabel("v")
+            plt.ylabel("√F")
+            plt.plot(Y, X, "o", x1, f(x1), "-")
         else:
-            plt.plot(X, Y)
+            plt.xlabel("√F")
+            plt.ylabel("v")
+            plt.plot(Y, X)
 
     # маса одиниці струни m = (F/V^2)*d
     def __find_m(self):
