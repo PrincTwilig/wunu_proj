@@ -114,6 +114,7 @@ if __name__ == "__main__":
     table1.print_table() # Виводимо таблицю
     table2.print_table()
     table3.print_table()
+    input()
 
 
 
