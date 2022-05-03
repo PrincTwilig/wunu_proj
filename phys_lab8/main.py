@@ -71,6 +71,7 @@ class Solution:
             self.U[i] = round(self.U[i],5)
             self.I[i] = round(self.I[i],5)
             self.p[i] = round(self.p[i],5)
+            self.delta_p[i] = round(self.delta_p[i],5)
         self.l = round(self.l,5)
         self.d = round(self.d,5)
 
@@ -98,9 +99,9 @@ if __name__ == "__main__":
     print("Version: 1.0")
     print("Введіть додатній номер списку щоб додати відсоток, та відємний щоб відняти відсоток від данних(якщо ви перший в списку, то впишіть 0)")
     spisk = int(input("Введіть ваш номер в списку: "))
-    table1 = Solution(spisk, [1,1.3,1.5,0], [0.23,0.2,0.23,0], 0.3, 0.7, 1)  # Створюєм об'єкт класу Solution
-    table2 = Solution(spisk, [2.3,2.5,2.5,0], [19,19,18.5,0], 0.6, 0.7, 2)
-    table3 = Solution(spisk, [20,20.5,20.3,0], [0.5,0.56,0.58,0], 0.2, 0.05, 3)
+    table1 = Solution(spisk, [45,45.3,45.2,0], [0.31,0.33,0.35,0], 0.5, 0.07, 1)  # Створюєм об'єкт класу Solution
+    table2 = Solution(spisk, [19,18.7,18.9,0], [0.2,0.26,0.24,0], 0.3, 0.07, 2)
+    table3 = Solution(spisk, [20,20.3,20.7,0], [0.25,0.23,0.22,0], 0.2, 0.07, 3)
 
     table1.normalize() # Переводимо значення під варіант
     table2.normalize()
