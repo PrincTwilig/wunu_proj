@@ -8,6 +8,7 @@
 - [Фізика лабораторна 5](https://github.com/PrincTwilig/wunu_proj/releases/tag/Phys_lab5)
 - [Фізика лабораторна 8](https://github.com/PrincTwilig/wunu_proj/releases/tag/Phys_lab8)
 - [Фізика лабораторна 9](https://github.com/PrincTwilig/wunu_proj/releases/tag/Phys_lab9)
+- [Фізика лабораторна 10](https://github.com/PrincTwilig/wunu_proj/releases/tag/Phys_lab10)
 ### Як скачати?
 Справа є вкладка Releases там всі останні випуски програм, також на вкладці Releases зліва зверху є Tags, коли ви натискаєте на нього, буде легше найти конкретний проект. Також можна перейти по посиланню в абзаці "[Що вже є?](#thinks)"
 ### Можливі помилки
